@@ -338,7 +338,7 @@
               </p:NodeReference>
               <Pin Id="ERsG2RrMLvCNIh9ZI954vQ" Name="Center" Kind="InputPin" />
               <Pin Id="L3AjFqH1RHEQYmwzLpUcMC" Name="Width" Kind="InputPin" />
-              <Pin Id="Gaw7BiJDeLuLtJhqY0vCIe" Name="Seed" Kind="InputPin" DefaultValue="2">
+              <Pin Id="Gaw7BiJDeLuLtJhqY0vCIe" Name="Seed" Kind="InputPin" DefaultValue="1">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Integer32" />
                 </p:TypeAnnotation>
@@ -417,7 +417,7 @@
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Renderer" />
               </p:NodeReference>
-              <Pin Id="Ol9dh4wixUAMfvbjs5k1rE" Name="Bounds" Kind="InputPin" DefaultValue="{&quot;x&quot;:1141,&quot;y&quot;:190,&quot;width&quot;:798,&quot;height&quot;:832}">
+              <Pin Id="Ol9dh4wixUAMfvbjs5k1rE" Name="Bounds" Kind="InputPin" DefaultValue="{&quot;x&quot;:1143,&quot;y&quot;:119,&quot;width&quot;:797,&quot;height&quot;:832}">
                 <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                   <Choice Kind="TypeFlag" Name="Rectangle" />
                 </p:TypeAnnotation>
@@ -563,7 +563,7 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Pad Id="I2UZQJcCSciMufVZdmorcT" Comment="defined Angle" Bounds="157,428,40,18" ShowValueBox="true" isIOBox="true" Value="true">
+            <Pad Id="I2UZQJcCSciMufVZdmorcT" Comment="defined Angle for Rotation" Bounds="157,428,40,18" ShowValueBox="true" isIOBox="true" Value="true">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>

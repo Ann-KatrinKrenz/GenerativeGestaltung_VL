@@ -14,7 +14,7 @@
         </p:NodeReference>
         <Patch Id="MnYU5yahwtHLUgF0PKTMAF">
           <Canvas Id="ExBBw8a5BeuMAz3q2ttv2U" CanvasType="Group">
-            <Node Bounds="235,1272,85,13" Id="L9wlmtCTSMzQYTGu34G87M">
+            <Node Bounds="216,1274,105,13" Id="L9wlmtCTSMzQYTGu34G87M">
               <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -24,13 +24,18 @@
                   <Choice Kind="TypeFlag" Name="Rectangle" />
                 </p:TypeAnnotation>
               </Pin>
+              <Pin Id="GW0TuzaHZw4PzEHOyEOS4U" Name="Bound to Document" Kind="InputPin" DefaultValue="true">
+                <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                  <Choice Kind="TypeFlag" Name="Boolean" />
+                </p:TypeAnnotation>
+              </Pin>
               <Pin Id="KqxWx8DwIPTPP3JFtrl0Ca" Name="Input" Kind="InputPin" />
               <Pin Id="CoBi68yW6gxO26GeuAQESF" Name="Color" Kind="InputPin" />
               <Pin Id="E8VVCl2WgbmMz4xlezFn0q" Name="Space" Kind="InputPin" />
               <Pin Id="KiM4pcMFJLgMGxTpshivT0" Name="Enabled" Kind="InputPin" />
               <Pin Id="JR5uOF0MKu2Mw6VwaRxcEh" Name="Form" Kind="OutputPin" />
             </Node>
-            <Pad Id="VmopkGaP7SZOO2Q7FU9tF9" Comment="Color" Bounds="278,1252,129,20" ShowValueBox="true" isIOBox="true" Value="{&quot;Red&quot;:0.379999965,&quot;Green&quot;:0.0,&quot;Blue&quot;:1.0,&quot;Alpha&quot;:1.0}">
+            <Pad Id="VmopkGaP7SZOO2Q7FU9tF9" Comment="Color" Bounds="278,1252,129,20" ShowValueBox="true" isIOBox="true" Value="{&quot;Red&quot;:1.0,&quot;Green&quot;:1.0,&quot;Blue&quot;:1.0,&quot;Alpha&quot;:1.0}">
               <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="RGBA" />
               </p:TypeAnnotation>
@@ -437,7 +442,7 @@
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="E8JB6TF0x6vPyLKyXP54dW" Bounds="474,55,198,67" ShowValueBox="true" isIOBox="true" Value="&quot;x - count, verschiebung und black\r\ny - skalierung der kreise&quot;">
+            <Pad Id="E8JB6TF0x6vPyLKyXP54dW" Bounds="459,26,198,67" ShowValueBox="true" isIOBox="true" Value="&quot;x - count, verschiebung und black\r\ny - skalierung der kreise&quot;">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -741,11 +746,6 @@
           </Canvas>
           <Patch Id="UhSUtnzO426NOxOMnDkNxY" Name="Create" />
           <Patch Id="ImJFs9yl7CFMYHVBPBYoz8" Name="Update" />
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="OfC2h7L4Jy7QQFFNeYMyb2">
             <Fragment Id="FNdCCKRIsCMPoQATXfbQTZ" Patch="UhSUtnzO426NOxOMnDkNxY" Enabled="true" />
             <Fragment Id="UiYLQGuhbNWLbpa7taWcnO" Patch="ImJFs9yl7CFMYHVBPBYoz8" Enabled="true" />
