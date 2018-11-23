@@ -77,7 +77,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="489,342,65,13" Id="Gg3kjch3mInOXeavHKwCgS">
-              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="Polygons.vl">
+              <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="GenerativeGestaltung_P_2_0_02_Structured.vl">
                 <Choice Kind="ProcessNode" Name="polyyyy" />
               </p:NodeReference>
               <Pin Id="J8AUlp63gb9QPOrJDQp3zB" Name="clear" Kind="InputPin" />
@@ -125,7 +125,7 @@
         </p:NodeReference>
         <Patch Id="I8NXFJ0fP2TO7CbUgF5TuL">
           <Canvas Id="QX4Rtkvp6KJNDEkR1Enu35" CanvasType="Group">
-            <Pad Id="FB4QMaanMYaO6MW9FQNNbG" SlotId="CvNvxZWQ9gWOrQyuAlEBes" Bounds="402,824">
+            <Pad Id="FB4QMaanMYaO6MW9FQNNbG" SlotId="CvNvxZWQ9gWOrQyuAlEBes" Bounds="399,815">
               <p:ValueBoxSettings />
             </Pad>
             <Node Bounds="513,192,39,13" Id="AUKqAfAcPPqNJ1TCZMbFx5">
@@ -278,10 +278,10 @@
               <ControlPoint Id="KDjJMJv8BsyN2bg19eXCSx" Bounds="428,766" Alignment="Bottom" />
             </Node>
             <ControlPoint Id="PqGmCnvoCUXLXevMK776J7" Bounds="482,96" />
-            <Pad Id="KjmcIsrvFGDLLdyUhgD3rY" SlotId="CvNvxZWQ9gWOrQyuAlEBes" Bounds="406,917">
+            <Pad Id="KjmcIsrvFGDLLdyUhgD3rY" SlotId="CvNvxZWQ9gWOrQyuAlEBes" Bounds="399,899">
               <p:ValueBoxSettings />
             </Pad>
-            <Node Bounds="406,864,33,22" Id="RYeXTqrFzMRQMIfxGX99AZ">
+            <Node Bounds="397,841,33,22" Id="RYeXTqrFzMRQMIfxGX99AZ">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Add" />
@@ -353,7 +353,7 @@
               </p:ValueBoxSettings>
             </Pad>
             <Pad Id="MaP5zbuZjX3PmjE5k8b9Yl" Bounds="1049,589" />
-            <Node Bounds="1222,937,37,13" Id="EaHg8RVze2oLzsBwquHm4s">
+            <Node Bounds="1226,934,37,13" Id="EaHg8RVze2oLzsBwquHm4s">
               <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Group (Spectral)" />
@@ -362,14 +362,11 @@
               <Pin Id="AcoSKSvqUdZQVb9boLXZzd" Name="Input" Kind="InputPin" />
               <Pin Id="JmzAHbpQz1yLgp9O6IAQ6j" Name="Output" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="SlkZXup47lUM3FH3BvrD12" Bounds="1224,981" />
-            <Pad Id="Exu3vsIXluEOdEknpl2TPE" SlotId="CvNvxZWQ9gWOrQyuAlEBes" Bounds="102,438">
+            <ControlPoint Id="SlkZXup47lUM3FH3BvrD12" Bounds="1227,987" />
+            <Pad Id="EWPlgIoJDSrMy5nlK70cY1" SlotId="CvNvxZWQ9gWOrQyuAlEBes" Bounds="400,1002">
               <p:ValueBoxSettings />
             </Pad>
-            <Pad Id="EWPlgIoJDSrMy5nlK70cY1" SlotId="CvNvxZWQ9gWOrQyuAlEBes" Bounds="106,531">
-              <p:ValueBoxSettings />
-            </Pad>
-            <Node Bounds="118,470,33,22" Id="IpRwOsKQ2iZMmEA7U06lw5">
+            <Node Bounds="397,939,33,22" Id="IpRwOsKQ2iZMmEA7U06lw5">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Clear" />
@@ -378,7 +375,7 @@
               <Pin Id="H0FRbWohqwNMuHvz225zUy" Name="Input" Kind="StateInputPin" />
               <Pin Id="U9jnRFc03VTOreEX453UtF" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Node Bounds="760,845,85,13" Id="Ch5AVkUdX9PNnfqown0sgt">
+            <Node Bounds="730,856,85,13" Id="Ch5AVkUdX9PNnfqown0sgt">
               <p:NodeReference LastCategoryFullName="Graphics.Skia.Layers" LastSymbolSource="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Polygon" />
@@ -390,12 +387,12 @@
               <Pin Id="MQDI7mx1vAnP37ojs1D29p" Name="Enabled" Kind="InputPin" />
               <Pin Id="Cpbghe8MVMqOHPAwsy91xv" Name="Output" Kind="OutputPin" />
             </Node>
-            <Pad Id="FWGm2vAjdy1Lqy4ExuZh7p" Comment="Closed" Bounds="724,779,40,19" ShowValueBox="true" isIOBox="true" Value="true">
+            <Pad Id="FWGm2vAjdy1Lqy4ExuZh7p" Comment="Closed" Bounds="752,822,40,19" ShowValueBox="true" isIOBox="true" Value="true">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Boolean" />
               </p:TypeAnnotation>
             </Pad>
-            <Node Bounds="728,894,33,22" Id="JWhgAo77lP2Mn3EcRdsHXV">
+            <Node Bounds="702,885,33,22" Id="JWhgAo77lP2Mn3EcRdsHXV">
               <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="Add" />
@@ -405,10 +402,8 @@
               <Pin Id="D8gVZaTkUaWLUJZvncNmdi" Name="Item" Kind="InputPin" />
               <Pin Id="LnzYDdJP6RCL6ajrdVlsC9" Name="Output" Kind="StateOutputPin" />
             </Node>
-            <Pad Id="DTfHPGRp4p1PKBrA2hbT1t" SlotId="Aws2h28GBRWNyH8wvlt1e1" Bounds="708,866" />
-            <Pad Id="A79pJPs2S17NLti3knN1hx" SlotId="Aws2h28GBRWNyH8wvlt1e1" Bounds="719,942" />
-            <Pad Id="Sb9Beyi1M5YO6xV0Yd4Jqe" SlotId="Aws2h28GBRWNyH8wvlt1e1" Bounds="1006,868" />
-            <Node Bounds="1004,901,37,13" Id="TihZESSrHVNQPuLGTAJpwV">
+            <Pad Id="DTfHPGRp4p1PKBrA2hbT1t" SlotId="Aws2h28GBRWNyH8wvlt1e1" Bounds="705,861" />
+            <Node Bounds="702,1035,37,13" Id="TihZESSrHVNQPuLGTAJpwV">
               <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Group (Spectral)" />
@@ -417,7 +412,18 @@
               <Pin Id="MH5DSmDTkkrP67if4Wt2jB" Name="Input" Kind="InputPin" />
               <Pin Id="PbPJ3c1nrwdPObdNQh1cyX" Name="Output" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="MDVJGFuKNI2MuvmllAys1d" Bounds="1007,969" />
+            <ControlPoint Id="MDVJGFuKNI2MuvmllAys1d" Bounds="703,1080" />
+            <Node Bounds="702,956,33,22" Id="LR9JP2wivt8ME23wh0eqO6">
+              <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="OperationCallFlag" Name="Clear" />
+                <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+              </p:NodeReference>
+              <Pin Id="BBM3iFvnJZCNqLHZ5nzCJc" Name="Input" Kind="StateInputPin" />
+              <Pin Id="VhEHfWBibJmPmuKH0VorB0" Name="Output" Kind="StateOutputPin" />
+            </Node>
+            <Pad Id="PqPcgAXTpsgMPQA1xUfAJm" SlotId="Aws2h28GBRWNyH8wvlt1e1" Bounds="705,931" />
+            <Pad Id="ELlcxQ008rNOaOUEK3KqDO" SlotId="Aws2h28GBRWNyH8wvlt1e1" Bounds="705,1007" />
           </Canvas>
           <Patch Id="AS2RdKHUyqBOu0xcZgZHje" Name="Create" ParticipatingElements="A5YAWShXRWYM2MLGgc8HAb" />
           <Slot Id="CvNvxZWQ9gWOrQyuAlEBes" Name="vertices" />
@@ -462,9 +468,8 @@
           <Link Id="OaSdGhIwRNANaKRttQv48F" Ids="PRaCxaJEpNULfTikUTHEe6,AcoSKSvqUdZQVb9boLXZzd" />
           <Link Id="K3lwzYgPApZNbN1V5b1oJj" Ids="JmzAHbpQz1yLgp9O6IAQ6j,SlkZXup47lUM3FH3BvrD12" />
           <Link Id="JBq8a0tUBx9Oukwc7t0wx1" Ids="SlkZXup47lUM3FH3BvrD12,EKA5MmifJA2QcIAAzPVfgz" IsHidden="true" />
-          <Link Id="HvclmWawSCkM6Qzq7GLnOe" Ids="Exu3vsIXluEOdEknpl2TPE,H0FRbWohqwNMuHvz225zUy" />
           <Link Id="TQqnAFkObAvLumb83tvpMV" Ids="U9jnRFc03VTOreEX453UtF,EWPlgIoJDSrMy5nlK70cY1" />
-          <Patch Id="KXmXrbHgNHVO4ZQOqjXPEb" Name="clear" ParticipatingElements="HvclmWawSCkM6Qzq7GLnOe" />
+          <Patch Id="KXmXrbHgNHVO4ZQOqjXPEb" Name="clear" ParticipatingElements="IpRwOsKQ2iZMmEA7U06lw5,LR9JP2wivt8ME23wh0eqO6" />
           <Link Id="MvKDPhw6iOHMyXRvidAAix" Ids="Fpt1H0MfBoKQZZ5yEjgv9l,NzGBlZsYxDtMOJbeUBshJW" />
           <ProcessDefinition Id="NQNjHnghqiILqIgXGeFXlt">
             <Fragment Id="SFU2SlLRTYmN80fbaJTMqY" Patch="AS2RdKHUyqBOu0xcZgZHje" Enabled="true" />
@@ -481,12 +486,15 @@
           <Link Id="AT7eR2RyIRFOChNTbNAagg" Ids="KDjJMJv8BsyN2bg19eXCSx,Si6QpBYuNUMNgNy9779cB6" />
           <Slot Id="Aws2h28GBRWNyH8wvlt1e1" Name="polys" />
           <Link Id="EI5nnUpzjxkQTQcOXyXGmR" Ids="DTfHPGRp4p1PKBrA2hbT1t,FhvV0mVRpAWMTWCUGBiTdv" />
-          <Link Id="CTYVbzvFgliOWPtgVPZlUO" Ids="LnzYDdJP6RCL6ajrdVlsC9,A79pJPs2S17NLti3knN1hx" />
           <Link Id="Fkf547XuUkkP1hhbY2g07Y" Ids="MaP5zbuZjX3PmjE5k8b9Yl,Mn9jDhSSucXMdpnTFhUZcx" />
-          <Link Id="EzVzygRNBTGM1J1bHsjsHL" Ids="Sb9Beyi1M5YO6xV0Yd4Jqe,MH5DSmDTkkrP67if4Wt2jB" />
           <Link Id="GnD7TZLYGEmM8SYjv2m9oe" Ids="PbPJ3c1nrwdPObdNQh1cyX,MDVJGFuKNI2MuvmllAys1d" />
           <Link Id="IuFzJEiMmXePCPKfTSKTZh" Ids="MDVJGFuKNI2MuvmllAys1d,HNR6aohBz91PaJipJ4Ig2d" IsHidden="true" />
           <Link Id="BmfzVShWrPaPxHHbRhjHvb" Ids="Cpbghe8MVMqOHPAwsy91xv,D8gVZaTkUaWLUJZvncNmdi" />
+          <Link Id="S4sdUYHRAkrOrDUzWlPVpe" Ids="VhEHfWBibJmPmuKH0VorB0,ELlcxQ008rNOaOUEK3KqDO" />
+          <Link Id="CqJMzpaTntgO0j7UY8AHCJ" Ids="KjmcIsrvFGDLLdyUhgD3rY,H0FRbWohqwNMuHvz225zUy" />
+          <Link Id="CJB6A08VU7XPeWdiYf2AQW" Ids="ELlcxQ008rNOaOUEK3KqDO,MH5DSmDTkkrP67if4Wt2jB" />
+          <Link Id="ItcpmNTwfTkPEufh3nx2ba" Ids="LnzYDdJP6RCL6ajrdVlsC9,PqPcgAXTpsgMPQA1xUfAJm" />
+          <Link Id="BIhri80GcmMNvdNWv8pftz" Ids="PqPcgAXTpsgMPQA1xUfAJm,BBM3iFvnJZCNqLHZ5nzCJc" />
         </Patch>
       </Node>
     </Canvas>
